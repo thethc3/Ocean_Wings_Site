@@ -1,0 +1,31 @@
+{% extends 'base.html'%}
+{% block content %}
+
+<script type="text/javascript">
+    var day = {{ day|date:'d' }}+1
+</script>
+
+<h1>{{ day }}</h1>
+
+<ul>
+    {% for appointment in object_list %}
+        <li>{{ appointment.date_of_departure|date:"F j, Y" }}: {{ appointment.first_name }}
+            <a href='{% url "detail" appointment.id %}'>Appointment Details</a></li>
+    {% endfor %}
+</ul>
+
+<p>
+create something? <a href="/scheduler/{{ day|date:'Y' }}/{{ day|date:'b' }}/<script type='text/javascript'>
+    console.log(day)
+</script>
+">Today</a>
+
+    {% if previous_day %}
+        Previous Day: {{ previous_day }}
+    {% endif %}
+    {% if previous_day and next_day %}--{% endif %}
+    {% if next_day %}
+        Next Day: {{ next_day }}
+    {% endif %}
+</p>
+{% endblock %}

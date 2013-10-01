@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <title>Ocean Wings</title>
+</head>
+<body>
+<div>
+{% block menu %}
+    <ul>
+    <li><a href="#">Home</a> </li>
+    <li><a href="/scheduler/">Scheduler</a> </li>
+    <li><a href="/scheduler/ledger/">Ledger</a> </li>
+    </ul>
+{% endblock %}
+</div>
+<div>
+{% block content %}{% endblock %}
+</div>
+</body>
+</html>

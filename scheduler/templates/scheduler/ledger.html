@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+    <ul>
+    {% for appointment in object_list %}
+        <li>
+        {{ appointment.first_name }} {{ appointment.last_name }}
+        {{ appointment.date_of_departure }} {{ appointment.time_of_departure }}
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Week {{ week|date:'W' }}</h1>
+
+<ul>
+    {% for appointment in object_list %}
+        <li>{{ appointment.date_of_departure|date:"F j, Y" }}: {{ appointment.first_name }}</li>
+    {% endfor %}
+</ul>
+
+<p>
+    {% if previous_week %}
+        Previous Week: {{ previous_week|date:"F Y" }} <a href="/scheduler/{{ previous_week|date:'Y' }}/week/{{ previous_week|date:'W' }}">link</a>
+    {% endif %}
+    {% if previous_week and next_week %}--{% endif %}
+    {% if next_week %}
+        Next week: {{ next_week|date:"F Y" }} <a href="/scheduler/{{ next_week|date:'Y' }}/week/{{ next_week|date:'W' }}">link</a>
+    {% endif %}
+</p>
+{% endblock %}
