@@ -2,9 +2,11 @@ from django.db import models
 
 # Create your models here.
 
+
 class Pilot(models.Model):
     first_name = models.CharField(max_length=55)
     last_name = models.CharField(max_length=55)
+    passport = models.BooleanField(default=False)
 
     def __unicode__(self):
         return self.first_name

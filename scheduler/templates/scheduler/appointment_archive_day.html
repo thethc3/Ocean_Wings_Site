@@ -15,6 +15,11 @@
 </ul>
 
 <p>
+<a href="{% url 'day_view' previous_day|date:'Y' previous_day|date:'b' previous_day|date:'d' %}">Yesterday</a>
+<a href="{% url 'day_view' next_day|date:'Y' next_day|date:'b' next_day|date:'d' %}/">Tomorrow</a>
+
+<a href="{% url 'week_view' previous_day|date:'Y' previous_day|date:'W' %}">View Week of This Day</a>
+
     {% if previous_day %}
         Previous Day: {{ previous_day }}
     {% endif %}

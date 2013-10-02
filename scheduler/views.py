@@ -14,7 +14,6 @@ class AppointmentDetail(generic.DetailView):
     template_name = 'scheduler/appointment_detail.html'
 
 
-
 class Ledger(generic.ListView):
     model = Appointment
     template_name = 'scheduler/ledger.html'
@@ -24,7 +23,7 @@ class AppointmentDate(generic.WeekArchiveView):
     queryset = Appointment.objects.all()
     date_field = "date_of_departure"
     make_object_list = True
-    week_format = "%W"
+    #week_format = "%W"
     allow_future = True
     allow_empty = True
 

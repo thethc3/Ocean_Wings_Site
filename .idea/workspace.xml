@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71121edf-3380-49ac-b269-10cac6df324f" name="Default" comment="">
+    <list default="true" id="71121edf-3380-49ac-b269-10cac6df324f" name="Default" comment="removed javascript crap">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_day.html" afterPath="$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_day.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/schedule_app.iml" afterPath="$PROJECT_DIR$/.idea/schedule_app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scheduler/models.py" afterPath="$PROJECT_DIR$/scheduler/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mydatabase.db" afterPath="$PROJECT_DIR$/mydatabase.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scheduler/templates/scheduler/scheduler_index.html" afterPath="$PROJECT_DIR$/scheduler/templates/scheduler/scheduler_index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scheduler/views.py" afterPath="$PROJECT_DIR$/scheduler/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="schedule_app.iws" />
@@ -33,7 +34,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/schedule_app/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="45" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="2771">
+            <state line="13" column="45" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2771">
               <folding />
             </state>
           </provider>
@@ -42,7 +43,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scheduler/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="4" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="697">
+            <state line="29" column="36" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -51,25 +52,34 @@
       <file leaf-file-name="scheduler_index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/scheduler_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+            <state line="6" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="87" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="442">
+            <state line="13" column="52" selection-start="387" selection-end="387" vertical-scroll-proportion="0.38908452" vertical-offset="0" max-vertical-offset="568">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appointment_archive_day.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="appointment_archive_day.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_day.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="3" selection-start="394" selection-end="394" vertical-scroll-proportion="0.47887325" vertical-offset="0" max-vertical-offset="568">
+            <state line="20" column="88" selection-start="694" selection-end="694" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appointment_archive_week.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_week.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="131" selection-start="410" selection-end="410" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -78,8 +88,21 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scheduler/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="22" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="714">
-              <folding />
+            <state line="25" column="5" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="697">
+              <folding>
+                <element signature="e#26#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dates.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/oceanwings/Lib/site-packages/django/views/generic/dates.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13396">
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,7 +110,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scheduler/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="69" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="289">
+            <state line="8" column="69" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -96,7 +119,7 @@
       <file leaf-file-name="appointment_detail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/appointment_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="62" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="153">
+            <state line="2" column="62" selection-start="108" selection-end="108" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="153">
               <folding />
             </state>
           </provider>
@@ -124,17 +147,17 @@
         <option value="$PROJECT_DIR$/schedule_app/urls.py" />
         <option value="$PROJECT_DIR$/scheduler/templates/scheduler_index.html" />
         <option value="$PROJECT_DIR$/scheduler/admin.py" />
-        <option value="$PROJECT_DIR$/scheduler/models.py" />
         <option value="$PROJECT_DIR$/mydatabase.db" />
         <option value="$PROJECT_DIR$/scheduler/templates/ledger.html" />
         <option value="$PROJECT_DIR$/scheduler/templates/scheduler/ledger.html" />
-        <option value="$PROJECT_DIR$/scheduler/templates/scheduler/scheduler_index.html" />
-        <option value="$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_week.html" />
         <option value="$PROJECT_DIR$/scheduler/urls.py" />
         <option value="$PROJECT_DIR$/scheduler/templates/scheduler/appointment_detail.html" />
+        <option value="$PROJECT_DIR$/scheduler/models.py" />
+        <option value="$PROJECT_DIR$/scheduler/templates/scheduler/scheduler_index.html" />
+        <option value="$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_day.html" />
+        <option value="$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_week.html" />
         <option value="$PROJECT_DIR$/scheduler/views.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_day.html" />
       </list>
     </option>
   </component>
@@ -178,6 +201,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schedule_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ocean_Wings_Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schedule_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ocean_Wings_Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schedule_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ocean_Wings_Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schedule_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ocean_Wings_Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -188,6 +271,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -403,7 +487,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="schedule_app.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$USER_HOME$/oceanwings/Scripts/python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -411,7 +495,7 @@
       <module name="schedule_app" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="127.0.0.1" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -450,12 +534,18 @@
       <created>1380369555109</created>
       <updated>1380369555109</updated>
     </task>
+    <task id="LOCAL-00001" summary="removed javascript crap">
+      <created>1380674578309</created>
+      <updated>1380674578309</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -483,22 +573,19 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="removed javascript crap" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed javascript crap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scheduler/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="52" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scheduler/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="42" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
-          <folding />
+          <folding>
+            <element signature="e#26#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -509,35 +596,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/schedule_app/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mydatabase.db">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/scheduler_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/ledger.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="76" selection-start="250" selection-end="250" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="4" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
@@ -549,49 +615,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_week.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="104" selection-start="623" selection-end="623" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scheduler/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="47" selection-start="393" selection-end="393" vertical-scroll-proportion="0.58290154" vertical-offset="0" max-vertical-offset="386" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/urls.py">
+    <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/appointment_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="69" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+        <state line="2" column="62" selection-start="108" selection-end="108" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="153">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/appointment_detail.html">
+    <entry file="file://$PROJECT_DIR$/scheduler/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="62" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="135">
+        <state line="29" column="36" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/scheduler_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="69" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/oceanwings/Lib/site-packages/django/views/generic/dates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13396">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_week.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="131" selection-start="410" selection-end="410" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scheduler/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="22" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="630">
-          <folding />
+        <state line="25" column="5" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="697">
+          <folding>
+            <element signature="e#26#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/schedule_app/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="87" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="390">
+        <state line="13" column="45" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2771">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_day.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="394" selection-end="394" vertical-scroll-proportion="0.47887325" vertical-offset="0" max-vertical-offset="568">
+        <state line="20" column="88" selection-start="694" selection-end="694" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="52" selection-start="387" selection-end="387" vertical-scroll-proportion="0.38908452" vertical-offset="0" max-vertical-offset="568">
           <folding />
         </state>
       </provider>
