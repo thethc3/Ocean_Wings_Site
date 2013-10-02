@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71121edf-3380-49ac-b269-10cac6df324f" name="Default" comment="migrations">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule_app/settings.py" afterPath="$PROJECT_DIR$/schedule_app/settings.py" />
+    <list default="true" id="71121edf-3380-49ac-b269-10cac6df324f" name="Default" comment="added directories">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_day.html" afterPath="$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_day.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="schedule_app.iws" />
@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/schedule_app/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="20" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.33045357" vertical-offset="816" max-vertical-offset="2771">
+            <state line="63" column="16" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2771">
               <folding />
             </state>
           </provider>
@@ -64,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appointment_archive_day.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="appointment_archive_day.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_day.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="140" selection-end="140" vertical-scroll-proportion="-2.6153846" vertical-offset="51" max-vertical-offset="612">
+            <state line="2" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.053291537" vertical-offset="0" max-vertical-offset="638">
               <folding />
             </state>
           </provider>
@@ -140,16 +140,16 @@
         <option value="$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_week.html" />
         <option value="$PROJECT_DIR$/scheduler/views.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_day.html" />
         <option value="$PROJECT_DIR$/schedule_app/settings.py" />
+        <option value="$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_day.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -512,12 +512,16 @@
       <created>1380682689922</created>
       <updated>1380682689922</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added directories">
+      <created>1380726162518</created>
+      <updated>1380726162518</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -525,11 +529,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24305555" sideWeight="0.68640643" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18229167" sideWeight="0.7475623" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827735" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31359354" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2524377" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -550,7 +554,8 @@
     <MESSAGE value="removed javascript crap" />
     <MESSAGE value="week view and day view optimized for site" />
     <MESSAGE value="migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="migrations" />
+    <MESSAGE value="added directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="added directories" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -568,11 +573,6 @@
         <state line="5" column="8" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="225">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydatabase.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/ledger.html">
@@ -631,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_day.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="140" selection-end="140" vertical-scroll-proportion="-2.6153846" vertical-offset="51" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_week.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="131" selection-start="410" selection-end="410" vertical-scroll-proportion="-7.8076925" vertical-offset="1" max-vertical-offset="425">
@@ -659,9 +652,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mydatabase.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/schedule_app/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="20" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.33045357" vertical-offset="816" max-vertical-offset="2771">
+        <state line="63" column="16" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2771">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/templates/scheduler/appointment_archive_day.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.053291537" vertical-offset="0" max-vertical-offset="638">
           <folding />
         </state>
       </provider>
