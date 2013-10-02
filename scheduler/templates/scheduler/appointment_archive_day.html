@@ -15,11 +15,6 @@
 </ul>
 
 <p>
-create something? <a href="/scheduler/{{ day|date:'Y' }}/{{ day|date:'b' }}/<script type='text/javascript'>
-    console.log(day)
-</script>
-">Today</a>
-
     {% if previous_day %}
         Previous Day: {{ previous_day }}
     {% endif %}
